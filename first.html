@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Hello World</p>
+    <button>Gomb vagyok</button>
+    <script>
+
+        // 2. kérj be három számot és irasd ki a szorzatukat +bónusz: - még ezt nem tanultuk teljesen, utána kell néznetek, ha meg szeretnétek csinálni: ha nem számot írt be a felhasználó kezeld úgy, mintha 1-et írt volna be
+
+        var a = prompt('írj egy számot!');
+        var b = prompt('írj még egy számot!');
+        var c = prompt('írj egy utolsó számot is!');
+
+        if (typeof a != 'number') {
+            console.log('Nem számot írtál be!');
+            a = 1;
+        }
+
+        if (typeof b != 'number') {
+            console.log('Nem számot írtál be!');
+            b = 1;
+        }
+
+        if (typeof c != 'number') {
+            console.log('Nem számot írtál be!');
+            c = 1;
+        }
+
+        var szorzat = a * b * c;
+
+        console.log('A számok szorzata: ' + szorzat);
+
+    </script>
+</body>
+
+</html>

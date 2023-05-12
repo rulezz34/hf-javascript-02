@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Hello World</p>
+    <button>Gomb vagyok</button>
+    <script>
+
+        // 8. kérj be addig számokat, amíg azok összege nem haladja meg a 100at, majd irasd ki, hogy összesen mennyi számot kértél be
+
+        let a = 0;
+        let darabszam = 0;
+
+        while (a <= 101) {
+            var szam = Number(prompt('adj meg egy számot!'));
+
+            a += szam;
+            darabszam++;
+        }
+
+        alert('A számok összege: ' + a);
+
+        alert('Összesen ' + darabszam + ' db számot adtam össze.')
+    </script>
+</body>
+
+</html>
